@@ -19,7 +19,7 @@ JSON-pakketten: Gebruikt voor data-uitwisseling.
 
 Stappen om lokaal te draaien:
 Clone de repository:
-git clone https://github.com/gebruikersnaam/aimtoday.git
+git clone [https://github.com/gebruikersnaam/aimtoday.git](https://github.com/MisterSaji/aimtoday)
 Installeer de dependencies:
 cd aimtoday
 npm install

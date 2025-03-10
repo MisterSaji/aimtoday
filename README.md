@@ -52,34 +52,7 @@ Dit project gebruikt een fictieve SLS-licentie, wat betekent dat het project bed
 💡 Andere Programma’s
 
 CMS-systeem: Dit project is gekoppeld aan een contentmanagementsysteem (CMS), waarmee klanten kleine aanpassingen kunnen doen zonder tussenkomst van de ontwikkelaar.
-🗂️ Mappenstructuur
 
-Hier is een overzicht van de mappenstructuur van het project:
-
-aimtoday/
-│
-├── public/                # Bevat publieke bestanden zoals afbeeldingen en fonts
-│   ├── assets/            # Beelden, logo's, enz.
-│   └── index.html         # Hoofdpagina van de app
-│
-├── src/                   # Bronbestanden van de applicatie
-│   ├── components/        # Herbruikbare componenten (bijv. header, footer)
-│   ├── pages/             # Pagina's zoals Home, Artikelpagina
-│   │   ├── Home.jsx       # Homepage component
-│   │   └── Article.jsx    # Artikelpagina component
-│   ├── styles/            # Tailwind CSS configuratie en aangepaste stijlen
-│   │   └── tailwind.css   # Hoofd CSS bestand (Tailwind-configuratie)
-│   ├── data/              # JSON-bestanden of andere data voor de app
-│   ├── utils/             # Hulpfuncties (bijv. API-aanroepen)
-│   └── App.jsx            # Hoofdcomponent die alles samenbrengt
-│
-├── .gitignore             # Git-ignoreregel voor ongewilde bestanden
-├── package.json           # NPM-pakketconfiguratie
-├── tailwind.config.js     # Tailwind-configuratiebestand
-└── README.md              # Deze README
-Uitleg van de Mappen:
-public/: Bevat alle statische bestanden zoals afbeeldingen, het icoon van de website en de index.html.
-src/: De hoofdmap van de applicatie. Hier vind je de React-componenten, pagina's, stijlen en overige logica.
 components/: Bevat herbruikbare UI-componenten zoals de header, footer en knoppen.
 pages/: Specifieke pagina-componenten, zoals de homepage (Home.jsx) en de artikelpagina (Article.jsx).
 styles/: Tailwind CSS-configuratie en eventuele aangepaste stijlen.

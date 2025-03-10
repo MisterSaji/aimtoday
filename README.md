@@ -8,15 +8,15 @@ Responsive Design: De website is geoptimaliseerd voor zowel desktop- als mobiele
 Artikelpagina's: Dynamische pagina's voor het weergeven van nieuwsartikelen.
 Reclamegedeelte: De homepage bevat een sectie voor advertenties en promoties.
 CMS-koppeling: Gebruikers kunnen kleine aanpassingen zelf doen via het CMS-systeem.
-🛠️ Technologieën en Tools
 
+🛠️ Technologieën en Tools
 Tailwind CSS: Flexibele en gestileerde componenten voor de interface.
 JSX: Herbruikbare en overzichtelijke React-componenten.
 JavaScript: Voor logica en functionaliteit van de website.
 npm: Voor het beheren van dependencies en het draaien van de ontwikkelomgeving (via npm run dev).
 JSON-pakketten: Gebruikt voor data-uitwisseling.
-📦 Installatie en Gebruik
 
+📦 Installatie en Gebruik
 Stappen om lokaal te draaien:
 Clone de repository:
 git clone (https://github.com/MisterSaji/aimtoday)
@@ -26,8 +26,8 @@ npm install
 Start de ontwikkelserver:
 npm run dev
 Ga naar de lokale link (meestal: http://localhost:128.000.000) om de website te bekijken.
-🧑‍💻 Branchstructuur
 
+🧑‍💻 Branchstructuur
 We volgen een duidelijke branchstructuur om de ontwikkeling georganiseerd te houden:
 
 main: Bevat de stabiele versie van de website die in productie gaat.
@@ -38,8 +38,8 @@ Workflow:
 Werk aan nieuwe features in aparte feature-branches.
 Na goedkeuring worden de wijzigingen samengevoegd in de dev-branch.
 dev wordt uiteindelijk samengevoegd in main voor productie.
-🤝 Contributie
 
+🤝 Contributie
 Fork de repository en werk in je eigen feature-branch.
 Stuur een pull request naar de dev-branch voor review.
 Codekwaliteit: Zorg ervoor dat je code geen mergeconflicten veroorzaakt en goed getest is.
